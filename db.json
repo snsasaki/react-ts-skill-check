@@ -1,0 +1,26 @@
+{
+  "categories": [
+    { "id": 1, "name": "技術書" },
+    { "id": 2, "name": "小説" },
+    { "id": 3, "name": "ビジネス" },
+    { "id": 4, "name": "デザイン" }
+  ],
+  "books": [
+    { "id": 1, "title": "はじめてのTypeScript", "author": "山田 太郎", "categoryId": 1, "price": 2800 },
+    { "id": 2, "title": "実践Reactフック", "author": "鈴木 花子", "categoryId": 1, "price": 3200 },
+    { "id": 3, "title": "型で考える設計", "author": "田中 次郎", "categoryId": 1, "price": 3000 },
+    { "id": 4, "title": "やさしいWeb API", "author": "佐藤 三郎", "categoryId": 1, "price": 2600 },
+    { "id": 5, "title": "夜明けの向こう側", "author": "中村 さくら", "categoryId": 2, "price": 1500 },
+    { "id": 6, "title": "海辺の図書館", "author": "小林 健", "categoryId": 2, "price": 1600 },
+    { "id": 7, "title": "星を数える夜に", "author": "加藤 美咲", "categoryId": 2, "price": 1700 },
+    { "id": 8, "title": "チーム開発の教科書", "author": "渡辺 亮", "categoryId": 3, "price": 2400 },
+    { "id": 9, "title": "はじめてのマネジメント", "author": "伊藤 真", "categoryId": 3, "price": 2200 },
+    { "id": 10, "title": "数字に強くなる会計入門", "author": "松本 由美", "categoryId": 3, "price": 2000 },
+    { "id": 11, "title": "UIデザインの原則", "author": "木村 拓也", "categoryId": 4, "price": 3400 },
+    { "id": 12, "title": "配色の教科書", "author": "林 七海", "categoryId": 4, "price": 2900 },
+    { "id": 13, "title": "使いやすさの心理学", "author": "清水 大輔", "categoryId": 4, "price": 3100 },
+    { "id": 14, "title": "リーダブルTypeScript", "author": "山田 太郎", "categoryId": 1, "price": 2700 },
+    { "id": 15, "title": "続・夜明けの向こう側", "author": "中村 さくら", "categoryId": 2, "price": 1600 },
+    { "id": 16, "title": "マーケティング超入門", "author": "吉田 香織", "categoryId": 3, "price": 2100 }
+  ]
+}
