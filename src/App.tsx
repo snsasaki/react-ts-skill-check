@@ -1,5 +1,5 @@
 import "./App.css";
-import BookTable from "./components/BookTable";
+import BookList from "./components/BookList";
 import type { Book, Category } from "./types/book";
 
 /**
@@ -50,11 +50,6 @@ const books: Book[] = [
   },
 ];
 
-function getCategory(categoryId: number) {
-  const category = categories.find((category) => category.id === categoryId);
-  return category?.name ?? "未分類";
-}
-
 function App() {
   return (
     <main
@@ -66,31 +61,7 @@ function App() {
       }}
     >
       <h1>📚 書籍管理</h1>
-
-      {books.length === 0 ? (
-        <p>書籍がありません</p>
-      ) : (
-        <table>
-          <thead>
-            <tr>
-              <th>タイトル</th>
-              <th>著者</th>
-              <th>カテゴリ</th>
-              <th>価格</th>
-            </tr>
-          </thead>
-
-          <tbody>
-            {books.map((book) => (
-              <BookTable
-                key={book.id}
-                book={book}
-                category={getCategory(book.categoryId)}
-              />
-            ))}
-          </tbody>
-        </table>
-      )}
+      <BookList books={books} categories={categories} />
     </main>
   );
 }
